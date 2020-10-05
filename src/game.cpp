@@ -251,27 +251,12 @@ void Game::run()
 			}
 			break;
 		case '1':
-			fill_color = 1;
-			moves++;
-			break;
 		case '2':
-			fill_color = 2;
-			moves++;
-			break;
 		case '3':
-			fill_color = 3;
-			moves++;
-			break;
 		case '4':
-			fill_color = 4;
-			moves++;
-			break;
 		case '5':
-			fill_color = 5;
-			moves++;
-			break;
 		case '6':
-			fill_color = 6;
+			fill_color = ch - 48;
 			moves++;
 			break;
 		default:
